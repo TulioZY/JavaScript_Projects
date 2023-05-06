@@ -17,13 +17,12 @@
 
 .calculadora {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
-
 }
 
 .button {
@@ -39,6 +38,8 @@
 
 .button:hover {
     background-color: black;
+    transition: ease-in-out 0.3s;
+    transform: scale(110%);
 }
 
 #zero {
@@ -58,4 +59,24 @@
     text-align: right;
     padding: 5px;
     overflow: hidden;
+    margin-top: 20px;
+}
+
+#nome {
+    color: black;
+}
+
+#backspace {
+    padding-top: 5px;
+}
+
+h2 {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+h3 {
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 15px;
 }
